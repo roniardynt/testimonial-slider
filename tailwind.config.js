@@ -3,10 +3,10 @@ const { colors } = require('tailwindcss/defaultTheme')
 module.exports = {
   theme: {
     screens: {
-      sm: '640px',
+      sm: '375px',
       md: '768px',
       lg: '1024px',
-      xl: '1280px',
+      xl: '1440px',
       'print': {'raw': 'print'},
     },
     fontFamily: {
@@ -39,6 +39,7 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      inter: 'Inter',
     },
     fontSize: {
       xs: '0.75rem',
